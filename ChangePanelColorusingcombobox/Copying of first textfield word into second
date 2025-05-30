@@ -1,0 +1,14 @@
+# Copying of first textfield word into second 
+
+ Demo
+[Watch on YouTube](https://youtube.com/shorts/tHCYl4pGrJ8)
+💻 How to Run
+1. Make sure you have downloaded netbeans
+2. create simple gui
+3. Copy this code
+private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+  
+        txt1.grabFocus();
+        txt1.getText();
+        txt2.setText(" "+txt1.getText());
+    }    
