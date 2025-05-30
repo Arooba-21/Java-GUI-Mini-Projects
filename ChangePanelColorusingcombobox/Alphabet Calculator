@@ -1,0 +1,206 @@
+# Alphabet Calculator 🎨
+A simple Java Swing app that show the alphabet you clicked or write on text field.
+
+ Demo
+[Watch on YouTube](https://youtube.com/shorts/D0pR6gU3oSE?feature=share)
+💻 How to Run
+1. Make sure you have downloaded netbeans
+2. create simple gui
+3. Copy this code
+QUESTION NO 04: 
+    private void TXT1ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+       String text = TXT1.getText().toUpperCase();
+    if (text.length() == 1) {
+        char character = text.charAt(0);
+        switch (character) {
+         case 'A': BTN1.setText("A"); BTN1.setVisible(true); break;
+            case 'B': BTN2.setText("B"); BTN2.setVisible(true); break;
+            case 'C': BTN3.setText("C"); BTN3.setVisible(true); break;
+            case 'D': BTN4.setText("D"); BTN4.setVisible(true); break;
+            case 'E': BTN5.setText("E"); BTN5.setVisible(true); break;
+            case 'F': BTN6.setText("F"); BTN6.setVisible(true); break;
+            case 'G': BTN7.setText("G"); BTN7.setVisible(true); break;
+            case 'H': BTN8.setText("H"); BTN8.setVisible(true); break;
+            case 'I': BTN9.setText("I"); BTN9.setVisible(true); break;
+            case 'J': BTN10.setText("J"); BTN10.setVisible(true); break;
+            case 'K': BTN11.setText("K"); BTN11.setVisible(true); break;
+            case 'L': BTN12.setText("L"); BTN12.setVisible(true); break;
+            case 'M': BTN13.setText("M"); BTN13.setVisible(true); break;
+            case 'N': BTN14.setText("N"); BTN14.setVisible(true); break;
+            case 'O': BTN15.setText("O"); BTN15.setVisible(true); break;
+            case 'P': BTN16.setText("P"); BTN16.setVisible(true); break;
+            case 'Q': BTN17.setText("Q"); BTN17.setVisible(true); break;
+            case 'R': BTN18.setText("R"); BTN18.setVisible(true); break;
+            case 'S': BTN19.setText("S"); BTN19.setVisible(true); break;
+            case 'T': BTN20.setText("T"); BTN20.setVisible(true); break;
+            case 'U': BTN21.setText("U"); BTN21.setVisible(true); break;
+            case 'V': BTN22.setText("V"); BTN22.setVisible(true); break;
+            case 'W': BTN23.setText("W"); BTN23.setVisible(true); break;
+            case 'X': BTN24.setText("X"); BTN24.setVisible(true); break;
+            case 'Y': BTN25.setText("Y"); BTN25.setVisible(true); break;
+            case 'Z': BTN26.setText("Z"); BTN26.setVisible(true); break;
+            default: // Handle invalid input
+                JOptionPane.showMessageDialog(null, "Please enter a valid letter.");
+        }
+    } else {
+        JOptionPane.showMessageDialog(null, "Please enter a single letter.");
+    }
+        
+    }                                    
+
+    private void BTN1ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+        BTN1.addActionListener(e -> TXT1.setText("A"));
+        BTN1.setText("A");
+    }                                    
+
+    private void BTN2ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+          BTN2.addActionListener(e -> TXT1.setText("B"));
+          BTN2.setText("B");
+    }                                    
+
+    private void BTN3ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+          BTN3.addActionListener(e -> TXT1.setText("C"));
+          BTN3.setText("C");
+    }                                    
+
+    private void BTN4ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+          BTN4.addActionListener(e -> TXT1.setText("D"));
+          BTN4.setText("D");
+    }                                    
+
+    private void BTN5ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+          BTN5.addActionListener(e -> TXT1.setText("E"));
+          BTN5.setText("E");
+    }                                    
+
+    private void BTN6ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+          BTN6.addActionListener(e -> TXT1.setText("F"));
+          BTN6.setText("F");
+    }                                    
+
+    private void BTN7ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+          BTN7.addActionListener(e -> TXT1.setText("G"));
+          BTN7.setText("G");
+    }                                    
+
+    private void BTN8ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+          BTN8.addActionListener(e -> TXT1.setText("H"));
+          BTN8.setText("H");
+    }                                    
+
+    private void BTN9ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+          BTN9.addActionListener(e -> TXT1.setText("I"));
+          BTN9.setText("I");
+    }                                    
+
+    private void BTN10ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN10.addActionListener(e -> TXT1.setText("J"));
+          BTN10.setText("J");
+    }                                     
+
+    private void BTN11ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN11.addActionListener(e -> TXT1.setText("K"));
+          BTN11.setText("K");
+    }                                     
+
+    private void BTN12ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN12.addActionListener(e -> TXT1.setText("L"));
+          BTN12.setText("L");
+    }                                     
+
+    private void BTN13ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN13.addActionListener(e -> TXT1.setText("M"));
+          BTN13.setText("M");
+    }                                     
+
+    private void BTN14ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN14.addActionListener(e -> TXT1.setText("N"));
+          BTN14.setText("N");
+    }                                     
+
+    private void BTN15ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN15.addActionListener(e -> TXT1.setText("O"));
+          BTN15.setText("O");
+    }                                     
+
+    private void BTN16ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN16.addActionListener(e -> TXT1.setText("P"));
+          BTN16.setText("P");
+    }                                     
+
+    private void BTN17ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN17.addActionListener(e -> TXT1.setText("Q"));
+          BTN17.setText("Q");
+    }                                     
+
+    private void BTN18ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN18.addActionListener(e -> TXT1.setText("R"));
+          BTN18.setText("R");
+    }                                     
+
+    private void BTN19ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN19.addActionListener(e -> TXT1.setText("S"));
+          BTN19.setText("S");
+    }                                     
+
+    private void BTN20ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN20.addActionListener(e -> TXT1.setText("T"));
+          BTN20.setText("T");
+    }                                     
+
+    private void BTN21ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN21.addActionListener(e -> TXT1.setText("U"));
+          BTN21.setText("U");
+    }                                     
+
+    private void BTN22ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN22.addActionListener(e -> TXT1.setText("V"));
+          BTN22.setText("V");
+    }                                     
+
+    private void BTN23ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN23.addActionListener(e -> TXT1.setText("W"));
+          BTN23.setText("W");
+    }                                     
+
+    private void BTN24ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN24.addActionListener(e -> TXT1.setText("X"));
+          BTN24.setText("X");
+    }                                     
+
+    private void BTN25ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN25.addActionListener(e -> TXT1.setText("Y"));
+          BTN25.setText("Y");
+    }                                     
+
+    private void BTN26ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+          BTN26.addActionListener(e -> TXT1.setText("Z"));
+          BTN26.setText("Z");
+    }                         
